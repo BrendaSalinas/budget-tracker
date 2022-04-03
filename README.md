@@ -19,3 +19,5 @@ PWA, node js, package json, service workers, offline functionality, mongoose.
 ## APP running
 
 1. Download node js modules "npm init --y"
+ 
+Link to deployed application: https://warm-tundra-37949.herokuapp.com/ 
