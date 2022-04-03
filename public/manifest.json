@@ -1,7 +1,7 @@
 {
-    "name": "Food Event",
-    "short_name": "Foodies",
-    "description": "An app that allows you to view upcoming food events.",
+    "name": "Budget Tracker",
+    "short_name": "Budget",
+    "description": "An app that allows you to track your budget",
     "icons": [
         {
           "src": "./icons/icon-72x72.png",
