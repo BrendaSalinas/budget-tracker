@@ -14,7 +14,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 ## Technologies used
 
-PWA, node js, package json, service workers, offline functionality. 
+PWA, node js, package json, service workers, offline functionality, mongoose. 
 
 ## APP running
 
