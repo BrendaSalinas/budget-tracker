@@ -1,5 +1,3 @@
-const indexedDB =
-  window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB;
 
 const APP_PREFIX = "Budget-tracker";
 const VERSION = "version_01";
@@ -42,14 +40,14 @@ self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) {
 
-      let cacheKeeplist = keyList.filter(function(key) {
+      let cacheKeepl = keyList.filter(function(key) {
         return key.indexOf(APP_PREFIX);
       });
-      cacheKeeplist.push(CACHE_NAME);
+      cacheKeepl.push(CACHE_NAME);
 
       return Promise.all(
         keyList.map(function(key, i) {
-          if (cacheKeeplist.indexOf(key) === -1) {
+          if (cacheKeepl.indexOf(key) === -1) {
             console.log('deleting cache : ' + keyList[i]);
             return caches.delete(keyList[i]);
           }
